@@ -1,0 +1,116 @@
+.landing-view{
+        ion-content{
+            background: #fff;
+            height: 100%;
+
+            .logo-wrap{
+                height: 40%;                
+                p.logo{
+                    margin-top: 25%;
+                    text-align: center;
+                    img{
+                        width: 50%;
+                        
+                    }
+                }
+
+                .rider{
+                    padding: 0 25px;
+                    // margin-top: 20px;
+                    
+                    p{
+                        font-family: 'Titillium Web', sans-serif !important;
+                        font-weight: bold;
+                        color:#555;
+                    }
+                }
+
+                
+                
+                
+            }
+
+            .action-wrap{
+                padding:0 20px;
+                height: 30%;
+                  h4{
+                    color:#555;
+                }
+                .row{
+                    padding:0;
+                }
+                .col{
+                    padding-top:0;
+                    padding-bottom: 0;
+                }
+                p{
+                    margin-bottom: 0;
+                    color:#555;
+                }
+              
+
+                .button{
+                    border-radius: 5px;
+                }
+
+                .fb-button{
+                    background: $fb-bg;
+                    color:#fff;
+                }
+
+                .g-button{
+                    background:$google-bg;
+                    color:#fff;
+                }
+
+                .login-btn{
+                    font-size: 2.2vh;
+                }
+            }
+        }
+
+}
+
+.auth-view{
+    ion-content{
+         background: #fff;
+         height: 100%;
+         padding-top:40px;
+
+         .logo-wrap{
+             img{
+                 width: 45%;
+             }
+         }
+
+         .placeholder-icon {
+                font-size: 22px;
+            }
+
+            .list{
+                padding:10px;
+
+                 .item{
+                        margin-bottom:10px;
+                        border: none;
+                        height: 45px;
+
+                        input{
+                            height: 45px;
+                            font-size: 17px;
+                        }
+                    }
+
+                     .line-divider{
+                         border-top:1.5px solid #ddd;
+                         height: 3px;
+                        }
+
+            }
+
+        
+
+       
+    }
+
+}

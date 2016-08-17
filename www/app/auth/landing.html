@@ -1,0 +1,33 @@
+<ion-view class="landing-view" hide-nav-bar="true" view-title="Sign Up or Log in">
+   <ion-content scroll="false">
+       <div class="logo-wrap">
+           <p class="logo">
+            <img src="img/logo1.png" alt="logo">
+            </p>
+            <div class="rider">
+                <p class="text-center">WE DO TASK. YOU ENJOY LIFE.</p>
+            </div>
+
+       </div>
+
+       <div class="action-wrap">
+           <h4 class="text-center">Continue with social</h4>
+           <div class="row">
+               <div class="col">
+                   <button class="button button-block fb-button">Facebook</button>                  
+               </div>
+               <div class="col">
+                   <button class="button button-block g-button">Google+</button>
+                   
+               </div>
+           </div>
+
+           <h4 class="text-center">OR</h4>
+            <button ng-click="showModal(false)" class="button button-block button-balanced">Sign up</button>
+            <p ng-click="showModal(true)" class="text-center login-btn">
+                Already have an account? Login
+            </p>
+           
+       </div>
+   </ion-content>
+</ion-view>

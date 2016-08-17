@@ -1,0 +1,31 @@
+<ion-modal-view class="auth-view">
+    <ion-header-bar class="bar-positive">
+      <h1 class="title">{{title}}</h1>
+    </ion-header-bar>
+    <ion-content class="padding">
+        <div class="logo-wrap">
+           <p class="logo text-center">
+            <img src="img/logo1.png" alt="logo">
+            </p>            
+       </div>
+
+       <div class="list list-inset">
+           <div class="line-divider"></div>
+        <label class="item item-input">           
+            <input type="email" ng-model="data.email" placeholder="Email">
+             <i class="icon ion-ios-email-outline placeholder-icon"></i>
+        </label>
+        <div class="line-divider"></div>
+        <label class="item item-input">           
+            <input type="password" ng-model="data.password" placeholder="Password">
+             <i class="icon ion-locked placeholder-icon"></i>
+        </label>
+        <div class="line-divider"></div>
+
+        
+        <button ng-disabled="!data.email || !data.password"  ng-if='isLogin==true' ng-click="signIn(data)" class="button button-block button-balanced">Sign in</button>
+         <button ng-disabled="!data.email || !data.password" ng-if='isLogin==false' ng-click="signUp(data)" class="button button-block button-balanced">Sign up</button>
+        </div>
+        
+    </ion-content>
+</ion-modal-view>
